@@ -1,7 +1,7 @@
 $(function() {
 
   $.ajax({
-  url: 'https:www.codeschool.com/users/tay_llure.json',
+  url: 'https://www.codeschool.com/users/tay_llure.json',
   dataType: 'jsonp',
   success: function(response){
        addCourses(response.courses.completed);
